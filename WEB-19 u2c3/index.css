@@ -1,0 +1,46 @@
+/* Fill CSS here */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+    background-color: rgb(7, 101, 177);
+    color:white;
+}
+th{
+    background-color: rgb(7, 101, 177);
+    color:white;
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+
+}
+table{
+        display:inline;
+    }
+
+
+form {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 4em;
+    font-size: large;
+    margin-bottom: 20px;
+}
+input[type='submit']{
+    width:175px;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(7, 101, 177);
+    border: none;
+    color:white;
+    font-size: large;
+}
+input[type="text"],input[type="number"],select{
+    width:175px;
+    height: 35px;
+}
